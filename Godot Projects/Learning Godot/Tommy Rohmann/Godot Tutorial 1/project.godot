@@ -1,0 +1,8 @@
+config_version=5
+
+[application]
+
+config/name="Step By Step Nodes and Scenes"
+run/main_scene="res://Hello World Label.tscn"
+config/features=PackedStringArray("4.0", "Forward Plus")
+config/icon="res://icon.svg"
