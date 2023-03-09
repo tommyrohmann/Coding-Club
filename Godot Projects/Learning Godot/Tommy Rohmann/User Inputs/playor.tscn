@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://bjdo7ghubwhb8"]
+
+[ext_resource type="Texture2D" uid="uid://cdnxyseviqohg" path="res://icon.svg" id="1_3hugj"]
+[ext_resource type="Script" path="res://Playor.gd" id="2_pcts3"]
+[ext_resource type="Script" path="res://Example Code.gd" id="3_pqohc"]
+
+[node name="Playor" type="Sprite2D"]
+position = Vector2(584, 281)
+texture = ExtResource("1_3hugj")
+script = ExtResource("2_pcts3")
+
+[node name="Example Code" type="Sprite2D" parent="."]
+position = Vector2(270, 108)
+texture = ExtResource("1_3hugj")
+script = ExtResource("3_pqohc")
