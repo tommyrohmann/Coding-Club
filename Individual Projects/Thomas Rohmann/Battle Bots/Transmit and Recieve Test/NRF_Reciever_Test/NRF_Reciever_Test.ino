@@ -4,7 +4,7 @@
 
 RF24 radio(7,8);
 
-const int buzzer = 10;
+const int buzzer = 9;
 const byte address[6] = "00001";
 
 void setup() {
